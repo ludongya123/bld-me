@@ -1,0 +1,170 @@
+ .container{
+	 padding-bottom: 124upx;
+ }
+.banner{
+	.swiper{
+		height:440upx;
+		.swiper-item{
+			image{
+				width:100%;
+				height: 440upx;
+				display: block;
+			}
+		}
+	}
+	.banner-img{
+		width:100%;
+		height: 440upx;
+		display: block;
+	}
+}
+.goods-intro{
+	padding: 24upx 32upx 0;
+	background: #fff;
+	.price{
+		align-items: flex-end; 
+		.dis-price{
+			color:#EA6572;
+			font-size: 36upx;
+			font-weight: bold;
+			text{
+				font-weight: bold;
+				font-size: 64upx; 
+			}
+		}
+		.orin-price{ 
+			color:#999;
+			font-size: 36upx;
+			font-weight: bold;
+			margin-left: 20upx;
+			text-decoration: line-through;
+		}
+	}
+	.title{
+		color:$base-color;
+		font-size: 32upx;
+		line-height: 44upx;
+		font-weight: bold;
+		margin-top:24upx ;
+		padding-bottom: 16upx;
+	}
+	.sub-title{
+		color:#EA6572;
+		font-size: 28upx;
+		line-height: 40upx;
+		padding-bottom:24upx;
+	}
+	.yf{
+		padding:32upx 0;
+		color:#666;
+	}
+}
+.equity-detail,.goods-detail{
+	background: #fff;
+	margin-top:16upx;
+	.title{
+		text-align: center;
+		padding: 28upx 0 24upx;
+		@include fontStyle(#666,44upx,32upx);
+		font-weight: bold;
+		position: relative;
+		&:after,&:before{
+			content:'';
+			display: block;
+			width:72upx;
+			height: 3upx;
+			background:linear-gradient(270deg,rgba(204,204,204,0) 0%,rgba(204,204,204,1) 100%);
+			position: absolute; 
+			right: 226upx;
+			top:48upx;
+			border-radius: 2upx;
+		}
+		&:before{
+			left: 226upx;
+			background:linear-gradient(270deg, rgba(204,204,204,1) 0%, rgba(204,204,204,0) 100%);
+		}
+	}
+}
+.equity-detail .equity-g{
+	padding:0 32upx 48upx;
+	flex-wrap:wrap;
+	.equity-list{
+		position: relative;
+		width:332upx;
+		height: 216upx;
+		margin-left:22upx;
+		margin-top:22upx;
+		
+		&:nth-child(2n-1){
+			margin-left:0;
+		}
+		image{
+			width:100%;
+			height: 100%;
+		}
+		.name{
+			position: absolute;
+			width:100%;
+			text-align: center;
+			font-size: 44upx;
+			color:#AF8E61;
+			font-weight: bold;
+			top:90upx;
+			padding: 0 20upx;
+			.num{
+				color:#CCB492;
+				font-size: 32upx;
+				margin-left:14upx;
+			}
+			&.ticket{
+				top:66upx;
+			}
+		}
+		.desc{
+			position: absolute;
+			width:100%;
+			text-align: center;
+			color:#AF8E61;
+			top:130upx;
+			padding: 0 20upx;
+			.num{
+				font-size: 28upx;
+				color:#CCB492;
+				margin-left: 14upx;
+			}
+		}
+	}
+}
+.goods-detail{ 
+	.rech-text{
+		padding:24upx;
+	}
+}
+
+.btn-area{
+	position: fixed;
+	width:100%;
+	height: 100upx;
+	bottom:0;
+	text-align: center;
+	background: #fff;
+	.tel{
+		width:280upx ;
+		image{
+			width:48upx;
+			height: 48upx;
+		}
+		.text{
+			font-size: 22upx;
+			color:#999;
+		}
+	}
+	.buy{
+		flex:1;
+		background:linear-gradient(135deg,rgba(233,212,191,1) 0%,rgba(180,154,131,1) 100%);
+		line-height: 100upx;
+		font-size: 32upx;
+		font-weight: bold;
+		color:#fff;
+	}
+}

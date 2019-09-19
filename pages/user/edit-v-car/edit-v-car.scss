@@ -1,0 +1,129 @@
+.my-v-car{
+		height: 280upx;
+		background: #fff;
+		.bg{
+			height: 128upx;
+			background: $base-color;
+		}
+		.car-content{ 
+			width:686upx;
+			margin: 0 auto;
+			margin-top:-90upx;
+			background: #fff;
+			box-shadow: 0px 0px 10px 0px rgba(128,128,128,0.15);
+			border-radius: 8upx;
+			.top{
+				padding:32upx;
+				.car-icon{
+					width:72upx;
+					height: 72upx;
+					margin-right: 24upx;
+				}
+				.title{
+					text{
+						@include fontStyle($base-color,36upx,36upx);
+						font-weight: bold;
+					}
+					
+					.v-icon{
+						width:64upx;
+						height: 62upx;
+					}
+				}
+				.desc{
+					@include fontStyle(#767F86,24upx,24upx);
+					margin-top: 20upx;
+				}
+			}
+			.btm{
+				padding:24upx 32upx;
+				@include fontStyle(#999,24upx,24upx);
+			}
+		}
+	}
+	.form{
+		background: #fff;
+		padding:0 32upx;
+		.label{
+			color:#B49A83;
+			padding-top:48upx;
+		}
+		.flex-start{
+			padding :32upx 0 24upx;
+			input{
+				color:#333;
+				font-weight: bold;
+				font-size: 32upx;
+				flex:1; 
+			}
+			.place-style{
+				font-size: 32upx;
+				font-weight: bold;
+				color:#ccc;
+			}
+			.km{
+				color:#666666;
+			}
+			picker{
+				flex:1;
+				padding: 24upx 0; 
+				view{
+					color:#444;
+					font-size: 32upx;
+					font-weight: bold;
+					&.no-data{
+						color:#ccc;
+					}
+				} 
+			}
+			.icon{
+				width:16upx;
+				height: 32upx;
+			}
+		}
+	}
+	.car-code{
+		.title{ 
+			color:#B49A83;
+			padding :48upx 0 6upx;
+		}
+		.icon1{
+			width:24upx;
+			height: 24upx;
+			margin-left:10upx;
+		}
+		.flex-start{
+			border-right: 1upx solid #B49A83;
+			padding-right: 20upx;
+		}
+		.content {
+			padding : 20upx 0 20upx 18upx;
+			text{
+				color:#B49A83;
+				font-size: 32upx;
+				font-weight: bold; 
+			}
+			input{
+				flex:1; 
+				margin-left: 24upx;
+				color:#444;
+				font-weight: bold;
+				font-size: 32upx;
+			}
+		} 
+	}  
+	.btn-area{
+		padding:0 32upx;
+		position: fixed;
+		bottom:50upx;
+		width:750upx;
+		.btn{
+			text-align: center;
+			font-size: 32upx;
+			color:#fff;
+			font-weight: bold;
+			line-height: 94upx;
+			background: #C9AD94;
+			border-radius: 0; 
+		}
+	}

@@ -1,0 +1,109 @@
+page {
+		background-color: #F3F5F8;
+	}
+	.logistics-Information{
+		.flex-start-top{
+			display: flex;
+			justify-content: space-start;
+			webkit-box-align:flex-start;
+			-webkit-align-items:flex-start;
+			-ms-flex-align:flex-start;
+			align-items:flex-start;
+		}
+		.paddingbt-32{
+			padding-bottom: 32upx;
+		}
+		.logistics-top{
+			position: relative;
+			.logistics-top-bg{
+				position: absolute;
+				width: 100%;
+				left: 0;
+				top: 0;
+				height: 96upx;
+				background: #283540;
+			}
+			.logistics-top-box{
+				padding: 24upx 32upx;
+				position: relative;
+				z-index: 1;
+				.logistics-top-cont{
+					background: #FFFFFF;
+					border-radius:8upx;
+					padding: 24upx 30upx;
+					.logistics-top-img{
+						width: 96upx;
+						height: 96upx;
+					}
+					.logistics-top-info{
+						padding-left: 24upx;
+						text{
+							display: block;
+							color: #666666;
+							font-size: 28upx;
+						}
+					}
+				}
+				
+			}
+		}
+		.logistics-ft{
+			padding: 32upx;
+			.logistics-ft-box{
+				padding: 56upx 40upx;
+				background: #FFFFFF;
+				border-radius:8upx;
+				.logistics-detail{
+					position: relative;
+					border-left: 2upx solid #bdbdbd;
+					padding: 0upx 0upx 30upx 25px;
+					.logistics-detail-content{
+						text{
+							display: block;
+							padding-bottom: 10upx;
+							color: #999999;
+							font-size: 28upx;
+						}
+						
+					}
+					
+					.logistics-detail-sign{
+						position: absolute;
+						display: inline-block;
+						left: -11upx;
+						top: 0upx;
+						width: 26upx;
+						height: 26upx;
+						-webkit-border-radius: 50%;
+						background: #BDBDBD;
+					}
+				}
+					
+				.logistics-detail:first-child{
+					.logistics-detail-content{
+						text{
+							color: #C76B41;
+							font-weight: bold;
+						}
+					}
+				}
+				.logistics-detail:last-child{
+					border-left:none;
+					padding-bottom: 0;
+					.logistics-detail-content{
+						text{
+							display: block;
+							padding-bottom: 10upx;
+							color: #999999;
+							font-size: 28upx;
+							font-weight: normal;
+						}
+						
+					}
+				}
+			}
+			
+			
+			
+		}
+	}

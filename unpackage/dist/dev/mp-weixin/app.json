@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/service/service",
+    "pages/user/user",
+    "pages/user/user-equity/user-equity",
+    "pages/user/user-switching-accounts/user-switching-accounts",
+    "pages/user/my-order-list/my-order-list",
+    "pages/user/my-order-detail/my-order-detail",
+    "pages/user/logistics-Information/logistics-Information",
+    "pages/user/application-refunda/application-refunda",
+    "pages/user/my-car/my-car",
+    "pages/user/add-car/add-car",
+    "pages/user/edit-v-car/edit-v-car",
+    "pages/user/car-brand/car-brand",
+    "pages/user/car-series-price/car-series-price",
+    "pages/user/appointment-list/appointment-list",
+    "pages/user/appointment-state/appointment-state",
+    "pages/user/sell-detail/sell-detail",
+    "pages/user/submit-suggest/submit-suggest",
+    "pages/user/my-suggest/my-suggest",
+    "pages/user/car-butler/car-butler",
+    "pages/user/set-notice/set-notice",
+    "pages/user/notice-list/notice-list",
+    "pages/user/car-livedata/car-livedata",
+    "pages/user/oil-analyze/oil-analyze",
+    "pages/user/drive-analyze/drive-analyze",
+    "pages/home/baoyang/baoyang",
+    "pages/home/roadside/roadside",
+    "pages/home/storeList/storeList",
+    "pages/user/success-state/success-state",
+    "pages/home/dbc/dbc",
+    "pages/login/login",
+    "pages/user/all-car/all-car",
+    "pages/user/car-location/car-location",
+    "pages/home/web-view/web-view",
+    "pages/home/entry/entry",
+    "pages/home/obd/obd",
+    "pages/mall/goods-list/goods-list",
+    "pages/mall/goods-detail/goods-detail",
+    "pages/mall/newcar-list/newcar-list",
+    "pages/mall/newcar-detail/newcar-detail",
+    "pages/mall/submit-order/submit-order",
+    "pages/mall/user-address/user-address",
+    "pages/mall/edit-address/edit-address",
+    "pages/mall/car-config/car-config"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "BLD-me",
+    "navigationBarBackgroundColor": "#283540",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#596873",
+    "selectedColor": "#BE8B39",
+    "borderStyle": "black",
+    "backgroundColor": "#283540",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/service.png",
+        "selectedIconPath": "static/service1.png",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置服务"
+    }
+  },
+  "usingComponents": {
+    "skeleton": "/components/quick-skeleton/quick-skeleton",
+    "load": "/components/load-more/load",
+    "uni-nav-bar": "/components/custom-navbar/custom-navbar"
+  },
+  "sitemapLocation": "sitemap22.json"
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "代步车",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "y-y-pick-store": "/components/home/baoyang/yuyuePickStore",
+    "ch-pick-time": "/components/home/baoyang/choosePickTime"
+  }
+}

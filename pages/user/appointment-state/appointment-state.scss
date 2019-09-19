@@ -1,0 +1,75 @@
+.header-state{
+	background: #fff;
+	text-align: center;
+	padding:72upx 0 80upx;
+	image{
+		width:88upx;
+		height: 88upx;
+	}
+	.s-text{
+		color:#283540;
+		font-size: 36upx;
+		margin: 16upx 0 40upx;
+	}
+	button{
+		background: #fff;
+		width:170upx; 
+		@include fontStyle(#999,48upx,24upx);
+		border-radius: 24upx;
+		// background: #283540;
+		border:1upx solid #dedede;
+		&:after{
+			border-radius: 0;
+			border:none;
+			// border:1upx solid red;
+			// background: #283540;
+		}
+		&.button-hover{
+			background: #fafafa;
+		}
+	}
+}
+.menu-list{
+	margin :16upx 0;
+	background: #fff;
+	padding:0 32upx;
+	.flex-between{
+		padding:26upx 0;
+		.left{
+			width:200upx;
+			.icon{
+				width:32upx;
+				height: 32upx;
+				vertical-align: middle;
+			}
+			.title{ 
+				margin-left:16upx;
+				@include fontStyle(#666,40upx,28upx);
+			}
+		}
+		
+		.right{ 
+			@include fontStyle(#283540,40upx,28upx);
+			font-weight: bold; 
+			flex:1;
+			text-align: right;
+		}
+		.flex-end{
+			@include fontStyle(#B49A83,40upx,28upx);
+			text{
+				font-weight: bold;
+			}
+			image{
+				width: 28upx;
+				height: 28upx;
+			}
+		}
+	}
+}
+.order-no{
+	padding: 16upx 32upx;
+	background: #fff;
+	view{
+		@include fontStyle(#999,44upx,26upx);
+	} 
+}

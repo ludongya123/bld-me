@@ -1,0 +1,50 @@
+page{
+	background: #fff;
+}
+.container{
+	padding: 0 32upx;
+}
+.item-g{
+	padding:48upx 0 0;
+	.title{
+		margin-bottom:28upx;
+		.title-left{
+			font-size: 32upx;
+			color:#333;
+			font-weight: bold;
+		}
+		.title-right{
+			text{
+				color:#999;
+				margin-left:40upx;
+			}
+		}
+	}
+	.item-list{
+		align-items: stretch;
+		image{
+			width:4upx;
+			height: 100%;
+		}
+		view{
+			color: #666;
+			font-size: 24upx;
+			line-height: 1.3;
+			padding:20upx 0;
+			&.left{
+				width:260upx;
+				border-right: 2upx solid #fff;
+				padding-left: 28upx;
+			}
+			
+			&.right{
+				flex:1;
+				padding-left: 32upx;
+				border-left: 2upx solid #fff;
+			} 
+		}
+		&:nth-child(even){ 
+			background: #F8F8FA; 
+		}
+	}
+}

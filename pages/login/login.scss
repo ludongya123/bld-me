@@ -1,0 +1,196 @@
+.login_box{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	.img_logo{
+		width: 136upx;
+		height: 136upx;
+		margin: 128upx 0 0 308upx;
+	}
+	.login_title{
+		width: 100%;
+		text-align: center;
+		color: #333;
+		font-size: 36upx;
+		font-weight: bold;
+		margin-top: 32upx;
+	}
+	.btn_wx_login{
+		position: relative;
+		width: 574upx;
+		height: 98upx;
+		color: #fff;
+		font-size: 32upx;
+		font-weight: bold;
+		background-color: #C9AD94;
+		margin: 108upx auto 0;
+		padding-left: 40upx;
+		&.not_click{
+			background-color: #ccc;
+		}
+		.icon_wx{
+			position: absolute;
+			width: 48upx;
+			height: 40upx;
+			left: 128upx;
+			top: 30upx;
+			z-index: 99
+		}
+		.btn_title{
+			line-height: 98upx;
+		}
+		button {
+			position:relative;
+			display:block;
+			width: 574upx;
+			margin-left:auto;
+			margin-right:auto;
+			padding-left:14px;
+			padding-right:14px;
+			box-sizing:border-box;
+			font-size:18px;
+			text-align:center;
+			text-decoration:none;
+			line-height:2.55555556;
+			border-radius:5px;
+			// -webkit-tap-highlight-color:transparent;
+			overflow:hidden;
+			color: #fff;
+			background-color: transparent;
+			z-index: 999;
+		}
+		button::after {
+		  border: none;
+		}
+	}
+	.btn_ph_login{
+		width: 574upx;
+		height: 98upx;
+		text-align: center;
+		line-height: 98upx;
+		color: #C9AD94;
+		font-size: 32upx;
+		font-weight: bold;
+		background-color: #fff;
+		border: 1upx solid #C9AD94;
+		margin: 48upx auto;
+	}
+	.login_des{
+		position: fixed; 
+		width: 100%;
+		font-size: 24upx; 
+		bottom: 56upx;
+		.icon_check{
+			width: 32upx;
+			height: 32upx;
+			padding:14upx;
+		}
+		.login_des_1{
+			color: #999; 
+		}
+		.login_des_2{
+			color: #B49A83;
+		}
+	}
+}
+
+.login_box_ph{
+	padding-top: 28upx;
+	// 手机登录
+	.line_one{
+		width: 686upx;
+		height: 124upx;
+		margin: 0 auto;
+		border-bottom: 1upx solid #F3F5F8;
+		.left_title{
+			float: left;
+			width: 128upx;
+			height: 124upx;
+			text-align: center;
+			// line-height: 150upx;
+			line-height: 4.7;
+			font-size: 32upx;
+			color: #4A4A4A;
+		}
+		.input_com{
+			float: left;
+			width: 380upx;
+			height: 60upx;
+			padding-left: 32upx;
+			margin-top: 48upx;
+		
+		}
+		.plac_st{
+			font-size: 32upx;
+			color: #ccc;
+		}
+		.clear_phone{
+			float: right;
+			width: 32upx;
+			height: 32upx;
+			margin-top: 40upx;
+			padding:20upx;
+		}
+		
+	}
+	.line_two{
+		width: 686upx;
+		height: 124upx;
+		margin: 0 auto;
+		border-bottom: 1upx solid #F3F5F8;
+		.left_title{
+			float: left;
+			width: 128upx;
+			height: 100%;
+			text-align: center;
+			// line-height: 150upx;
+			line-height: 4.7;
+			font-size: 32upx;
+			color: #4A4A4A;
+		}
+		.input_com{
+			float: left;
+			width: 380upx;
+			height: 60upx;
+			padding-left: 32upx;
+			margin-top: 48upx;
+		}
+		.plac_st{
+			font-size: 32upx;
+			color: #ccc;
+		}
+		.btn_code{
+			float: right;
+			width: 174upx;
+			height: 52upx;
+			font-size: 24upx;
+			text-align: center;
+			line-height: 50upx;
+			margin-top: 56upx;
+			border: 1upx solid #ccc;
+			color: #ccc;
+		}
+		.get_btn_code{
+			color: #B49A83;
+			border: 1upx solid #B49A83;
+		}
+		.no_btn_code{
+			color: #ccc;
+			border: 1upx solid #ccc;
+		}
+	}
+	.btn_login{
+		width: 686upx;
+		height: 88upx;
+		text-align: center;
+		line-height: 88upx;
+		background-color:#ccc;
+		color: #fff;
+		font-size: 32upx;
+		margin: 62upx auto;
+		&.active{
+			background-color: #C9AD94;
+		}
+	}
+}
+

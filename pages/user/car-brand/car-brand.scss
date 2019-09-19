@@ -1,0 +1,61 @@
+page{
+	background: #fff;
+}
+.keys{
+	position: fixed;
+	flex-direction: column;
+	padding: 60upx 0;
+	height: 100vh;
+	background: rgba(222,222,222,0.2);
+	z-index: 10;
+	right: 0;
+	font-size: 32upx;
+	font-weight: bold;
+	
+	text{
+		width:60upx;
+		text-align: center;
+		line-height: 40upx;
+	}
+}
+.title{
+	padding:16upx 32upx;
+	font-size: 30upx;
+	font-weight: bold;
+	color:#333;
+	background: #F1F1F1;
+}
+.car-brand{
+	.flex-start{
+		border-top:1upx solid transparent;
+		flex-wrap: wrap;
+		padding-bottom:60upx;
+		.h-b-list{
+			width:20%;
+			text-align: center;
+			margin-top:60upx;
+			image{
+				width:80upx;
+				height: 80upx;
+			}
+			.car-brand-name{
+				color:#555;
+				margin-top:20upx;
+			}
+		}
+	}
+}
+.brand-list{
+	.flex-start{
+		padding:20upx 40upx;
+		color:#555;
+		image{
+			width:80upx;
+			height: 80upx;
+			margin-right: 20upx;
+		}
+	}
+}
+scroll-view{
+	height: 100vh;
+}

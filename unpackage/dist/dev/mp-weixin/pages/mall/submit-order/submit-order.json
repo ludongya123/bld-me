@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "提交订单",
+  "usingComponents": {
+    "zi-ti-time": "/components/ziti-time/ziti-time"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加车辆",
+  "usingComponents": {
+    "pro-code": "/components/province-code/province-code"
+  }
+}

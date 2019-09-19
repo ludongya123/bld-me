@@ -1,0 +1,127 @@
+page{
+	background: #fff;
+}
+.wrapper{
+	.tip{
+		background: #889CB6;
+		padding:20upx 32upx;
+		color:#fff;
+		font-size: 24upx;
+	}
+	
+	.car-info{
+		padding:0 32upx 32upx;
+		.title{ 
+			color:#B49A83;
+			padding :48upx 0 6upx;
+		}
+		.car-brand{
+			.icon{
+				width:16upx;
+				height: 32upx;
+			}
+			.content{
+				padding:24upx 0; 
+				text{
+					font-size: 32upx;
+					color:#ccc;
+					font-weight: bold;
+					&.full{
+						color:#333;
+						flex:1;
+					}
+					margin-right: 20upx;
+				}
+			}
+		}
+		.car-code{ 
+			.icon{
+				width:24upx;
+				height: 24upx;
+				margin-left:10upx;
+			}
+			.flex-start{
+				border-right: 1upx solid #B49A83;
+				padding-right: 20upx;
+			}
+			.content {
+				padding : 20upx 0 20upx 18upx;
+				text{
+					color:#B49A83;
+					font-size: 32upx;
+					font-weight: bold; 
+				}
+				input{
+					flex:1; 
+					margin-left: 24upx;
+					color:#444;
+					font-weight: bold;
+					font-size: 32upx;
+				}
+			} 
+		}  
+		.gls{
+			.content {
+				padding : 20upx 0 0 ;
+				input{
+					flex:1;
+					color:#444;
+					font-weight: bold;
+					font-size: 32upx;
+				}
+			}
+			
+		}
+		.place-style{
+			font-size: 32upx;
+			font-weight: bold;
+			color:#ccc;
+		}
+		
+	}
+	.gap{
+		height: 16upx;
+		background: #e8e8e8;
+	}
+}
+// 保险
+.insurance{
+	padding:0 32upx;
+	.title{
+		color:#B49A83;
+		padding :48upx 0 6upx;
+	}
+	.flex-start{ 
+		picker{
+			flex:1;
+			padding: 24upx 0; 
+			view{
+				color:#444;
+				font-size: 32upx;
+				font-weight: bold;
+				&.no-data{
+					color:#ccc;
+				}
+			} 
+		}
+		.icon{
+			width:16upx;
+			height: 32upx;
+		}
+	}
+}
+.btn-area{
+	padding:0 32upx;
+	position: fixed;
+	bottom:50upx;
+	width:750upx;
+	.btn{
+		text-align: center;
+		font-size: 32upx;
+		color:#fff;
+		font-weight: bold;
+		line-height: 94upx;
+		background: #C9AD94;
+		border-radius: 0; 
+	}
+}

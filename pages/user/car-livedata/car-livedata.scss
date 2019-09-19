@@ -1,0 +1,26 @@
+
+.flex-start{
+	padding:28upx 0 ;
+	background: #fff;
+	text{
+		@include fontStyle($base-color,44upx,32upx);
+	}
+	.argu{
+		color:#999;
+		width:290upx;
+		padding-left:32upx;
+	}
+	.val{ 
+		flex:1;
+		text-align: center;
+	}
+	.reference{
+		width:260upx;
+		text-align: center;
+	}
+	&.title{
+		.argu{
+			color:$base-color;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.wrapper{
+	padding: 0 32upx;
+	background: #fff;
+	color:#333;
+	.flex-start{
+		padding: 30upx 0;
+		text{
+			flex:1;
+		}
+		switch{
+			transform: scale(0.9);
+		}
+	}
+}

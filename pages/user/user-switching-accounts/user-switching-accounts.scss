@@ -1,0 +1,118 @@
+page {
+		background-color: #ffffff;
+	}
+	.user-switching-accounts {
+		width: 100%;
+		background-color: #fff;
+		
+		.user-switching-tips{
+			background:#889CB6;
+			color: #FFFFFF;
+			font-size: 24upx;
+			padding: 20upx 32upx;
+		}
+		.user-switching-content{
+			padding: 0 32upx;
+			.user-switching-top{
+				background: #fff;
+				padding:48upx 0;
+				.user-switching-top-text{
+					font-size: 32upx;
+					color: #4A4A4A;
+					font-weight: bold;
+				}
+				text{
+					color: #666666;
+					font-size: 32upx;
+					padding-left: 32upx;
+					text-align: left;
+				}
+			}
+		}
+		.flex-selec-start{
+			display: flex;
+			justify-content: space-start;
+			webkit-box-align:flex-start;
+			-webkit-align-items:flex-start;
+			-ms-flex-align:flex-start;
+			align-items:flex-start;
+		}
+		.user-accounts-select{
+			background: #fff;
+			margin: 0 auto 0;
+			width: 686upx;
+			position: relative;
+			
+			.user-accounts-select-left{
+				width:264upx;
+				height:120upx;
+				line-height:120upx;
+				font-size: 32upx;
+				color: #4A4A4A;
+				font-weight: bold;
+			}
+			.user-accounts-select-right{
+				flex: 1;
+				.item-select{
+					height:120upx;
+					line-height:120upx;
+					text{
+						font-size: 32upx;
+						color: #666666;
+					}
+					.sleect-text{
+						color: #B49A83;
+					}
+				}
+			}
+			.icon-box{
+				flex: 1;
+				text-align: right;
+				.icon{
+					width:48upx;
+					height: 48upx;
+					display: inline-block;
+					margin-left: 20upx;
+				}
+			}
+			
+		
+		}
+		.flex-start {
+			.icon{
+				width:48upx;
+				height: 48upx;
+				display: block;
+				margin-left: 20upx;
+			}
+			.a-icon{
+				width:16upx;
+				height: 32upx;
+			}
+		}
+		.submit{
+			@include fontStyle(#fff,100upx,32upx);
+			margin: 0 88upx;
+			margin-top: 50upx;
+			font-weight: 500;
+			background: #CCCCCC;
+			// margin:70upx 0 10upx;
+			text-align: center;
+			&.active{
+				background: #C9AD94;
+			}
+			&.btn-bg-none{
+				background: none;
+				color: #C9AD94;
+				border: 2upx solid #C9AD94;
+			}
+		}
+		
+	}
+	.no_more_data{
+		color: #666;
+		line-height: 120upx;
+		text-align: center; 
+		background: #F5F5F5;
+		font-size: 24upx;
+	}

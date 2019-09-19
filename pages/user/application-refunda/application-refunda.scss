@@ -1,0 +1,135 @@
+page {
+	background-color: #ffffff;
+}
+.application-refunda{
+	.application-refunda-box{
+		padding: 0 32upx 120px 32upx;
+	}
+	
+	.application-top{
+		padding: 48upx 0 76upx 0;
+		.application-top-img{
+			width: 176upx;
+			height: 128upx;
+		}
+		.application-top-text{
+			font-size: 30upx;
+			color: #666666;
+			padding-left: 24upx;
+			flex: 1;
+		}
+	}
+	
+	
+	.application-info{
+		width: 100%;
+		.icon-right-arrow{
+			width:16upx;
+			height:32upx;
+		}
+		.info-item-left{
+			width: 120upx;
+			padding: 32upx 0;
+			font-size: 28upx;
+			color: #333333;
+		}
+		.info-item-right{
+			flex: 1;
+			text-align: right;
+			font-size: 28upx;
+			color: #333333;
+		}
+		.info-item-right-picker{
+			flex: 1;
+			padding: 32upx 0;
+			font-size: 28upx;
+			color: #999999;
+		}
+	}
+	
+	.application-money{
+		padding-top: 72upx;
+		padding-bottom: 32upx;
+		text{
+			font-size: 28upx;
+			color: #333333;
+		}
+		.application-money-text{
+			width: 120upx;
+		}
+		.application-money-amount{
+			color: #EA6572;
+			padding-left: 24upx;
+			flex: 1;
+		}
+	}
+	.application-note{
+		padding: 32upx 0;
+		.application-note-left{
+			width: 120upx;
+		}
+		.application-note-right{
+			flex: 1;
+			width: 100%;
+			margin-left: 24upx;
+		}
+	}
+	.application-img-list{
+		
+		.img-border{
+			border:2upx dashed #CCCCCC;
+			text-align: center;
+			width:215upx;
+			height: 172upx;
+		}
+		.flex-wrap{
+			flex-wrap: wrap;
+		}
+		.img-list-cont{
+			
+			position: relative;
+			margin-left: 20upx;
+			margin-top:24upx;
+			&:nth-child(3n-2){
+				margin-left: 0;
+			}
+			.content{
+				width:215upx;
+				height: 172upx;
+				display: block;
+			}
+			.img-camera{
+				width: 64upx;
+				height: 64upx;
+				display: inline-block;
+				padding-top: 34upx;
+			}
+			.up-text{
+				color: #B7B7B7;
+				margin-top: 8upx;
+				font-size: 24upx;
+			}
+			.close-icon{
+				width:44upx;
+				height: 44upx;
+				position: absolute;
+				right:-16upx;
+				top:-16upx;
+			}
+		}
+		
+	}
+	.submit{
+		position: fixed;
+		width: 100%;
+		height: 98upx;
+		line-height: 98upx;
+		background:linear-gradient(135deg,rgba(233,212,191,1) 0%,rgba(180,154,131,1) 100%);
+		left: 0;
+		bottom: 0;
+		text-align: center;
+		font-size: 32upx;
+		color: #ffffff;
+	}
+	
+}

@@ -1,0 +1,1 @@
+<view hidden="{{!(show)}}"><view class="flex-center"><image class="icon" src="/static/load.png" mode></image><text>加载中...</text></view></view>

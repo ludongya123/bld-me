@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "保养预约",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "b-y-pick-car-view": "/components/home/baoyang/baoyangPickCar",
+    "y-y-pick-store": "/components/home/baoyang/yuyuePickStore",
+    "ch-pick-time": "/components/home/baoyang/choosePickTime"
+  }
+}

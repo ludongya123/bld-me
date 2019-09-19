@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新车详情",
+  "usingComponents": {
+    "ch-pick-time": "/components/home/baoyang/choosePickTime"
+  }
+}

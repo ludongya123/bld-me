@@ -1,0 +1,89 @@
+page {
+		background-color: #F5F5F5;
+	}
+
+	.pick_box {
+		width: 100%;
+		background-color: #fff;
+		.store-list{
+			padding: 0 32upx;
+		}
+		.pick_content {
+			.title_area { 
+				line-height: 100upx;
+				font-size: 32upx;
+				font-weight: 400;
+				color: #283540;
+				background-color: #F5F5F5;
+				padding-left: 32upx;
+				font-weight: bold;
+			}
+
+			.pick_item {   
+				padding:24upx 0;
+				.store-img{
+					position: relative;
+					.brand-icon{
+						position: absolute;
+						left:0;
+						width:100%;
+						bottom:12upx;
+						image{
+							width: 40upx;
+							height: 40upx;
+							margin-left: 12upx;
+							background: rgba(0,0,0,0.5);
+							padding:4upx;
+							border-radius: 50%;
+						}
+					}
+				}
+				.item_left_img { 
+					width: 168upx;
+					height: 128upx;
+					margin-right:16upx;
+				}
+
+				.car_msg {
+					flex:1;  
+					 overflow: hidden;
+					.car_msg_title { 
+						font-size: 32upx;
+						color: #333333;
+						font-weight: bold;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
+
+					.car_msg_des { 
+						font-size: 24upx;
+						color: #999999;
+						font-weight: 400;
+						margin-top:20upx;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						text{
+							margin-right: 16upx;
+						}
+					}
+				}
+
+				.icon_check_store {
+					position: absolute;
+					width: 48upx;
+					height: 48upx;
+					right: 0;
+					top: 80upx;
+				}
+			}  
+		}
+	}
+	.no_more_data{
+		color: #666;
+		line-height: 120upx;
+		text-align: center; 
+		background: #F5F5F5;
+		font-size: 24upx;
+	}

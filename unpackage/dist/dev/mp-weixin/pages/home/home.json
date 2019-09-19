@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "BLD-me",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "index-icon": "/components/home/index/icon",
+    "new-car-temp": "/components/home/index/newCarTemp",
+    "home-pick-car-view": "/components/home/index/homePickCarView",
+    "add-car-btn": "/components/home/index/addCarBtn"
+  }
+}

@@ -1,0 +1,1 @@
+<view><map class="map" id="myMap1" latitude="{{markers[0].latitude}}" longitude="{{markers[0].longitude}}" polyline="{{polyline}}" markers="{{markers}}" scale="15" show-location data-event-opts="{{[['markertap',[['markTap',['$event']]]]]}}" bindmarkertap="__e"><cover-view class="{{['toast',show?'show':'']}}">{{"最新更新："+time}}</cover-view></map></view>

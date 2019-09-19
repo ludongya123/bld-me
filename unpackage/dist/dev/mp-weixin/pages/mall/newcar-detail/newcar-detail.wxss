@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #fff;
+}
+.wrapper {
+  padding-bottom: 140rpx;
+}
+.swiper {
+  width: 100%;
+  height: 440rpx;
+}
+.swiper .swiper-item image {
+    width: 100%;
+    height: 440rpx;
+}
+.car-info {
+  background: #fff;
+  padding: 32rpx 32rpx 32rpx 16rpx;
+}
+.car-info .car-name {
+    color: #283540;
+    font-size: 44rpx;
+    font-weight: bold;
+    padding-left: 16rpx;
+}
+.car-info .car-price {
+    margin: 24rpx 0;
+    padding-left: 16rpx;
+}
+.car-info .car-price .dis-price {
+      color: #EA6572;
+      line-height: 36rpx;
+      font-size: 36rpx;
+      font-weight: bold;
+}
+.car-info .car-price .origin-price {
+      color: #666;
+      line-height: 28rpx;
+      font-size: 28rpx;
+      margin-left: 20rpx;
+}
+.car-info .intro {
+    padding-left: 16rpx;
+    color: #999;
+    line-height: 40rpx;
+    font-size: 26rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    /* autoprefixer: on */
+}
+.car-info .tags {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.car-info .tags text {
+      padding: 8rpx 20rpx;
+      color: #EA6572;
+      line-height: 24rpx;
+      font-size: 24rpx;
+      border: 1rpx solid #EA6572;
+      margin-top: 16rpx;
+      margin-left: 16rpx;
+}
+.car-series {
+  padding: 0 32rpx;
+  margin-top: 16rpx;
+  background: #fff;
+}
+.car-series .car-series-item {
+    padding: 36rpx  0 40rpx 0;
+}
+.car-series .car-series-item .info {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+}
+.car-series .car-series-item .info .title {
+        color: #333;
+        font-size: 32rpx;
+        font-weight: bold;
+        line-height: 1.3;
+}
+.car-series .car-series-item .info .sub-title {
+        margin-top: 20rpx;
+}
+.car-series .car-series-item .info .sub-title .dis-price {
+          font-size: 32rpx;
+          color: #EA6572;
+          font-weight: bold;
+}
+.car-series .car-series-item .info .sub-title .ori-price {
+          font-size: 26rpx;
+          color: #999;
+          margin: 0 16rpx;
+}
+.car-series .car-series-item .info .sub-title image {
+          width: 26rpx;
+          height: 26rpx;
+}
+.car-series .car-series-item .info .sub-title .discount {
+          font-size: 26rpx;
+          color: #73C48D;
+}
+.car-series .car-series-item .btn {
+      line-height: 56rpx;
+      color: #fff;
+      font-size: 26rpx;
+      width: 128rpx;
+      text-align: center;
+      background: #BCA28C;
+      margin-left: 20rpx;
+}
+.store-info {
+  padding: 24rpx 32rpx;
+  margin-top: 16rpx;
+  background: #fff;
+}
+.store-info .store-icon {
+    position: relative;
+}
+.store-info .store-icon .img {
+      width: 168rpx;
+      height: 128rpx;
+}
+.store-info .store-icon .brand-icon {
+      position: absolute;
+      bottom: 12rpx;
+      left: 0;
+}
+.store-info .store-icon .brand-icon image {
+        width: 32rpx;
+        height: 32rpx;
+        margin-left: 12rpx;
+}
+.store-info .title-address {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 20rpx;
+}
+.store-info .title-address .store-title {
+      color: #333;
+      line-height: 40rpx;
+      font-size: 32rpx;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      word-break: break-all;
+      /* autoprefixer: on */
+      font-weight: bold;
+}
+.store-info .title-address .address {
+      margin-top: 18rpx;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      word-break: break-all;
+      /* autoprefixer: on */
+}
+.store-info .title-address .address text {
+        color: #999;
+        line-height: 30rpx;
+        font-size: 24rpx;
+        margin-right: 16rpx;
+}
+.store-info .nav-icon {
+    width: 60rpx;
+    text-align: center;
+}
+.store-info .nav-icon image {
+      width: 40rpx;
+      height: 40rpx;
+}
+.store-info .nav-icon text {
+      color: #D3BAA5;
+      font-size: 22rpx;
+      margin-top: 16rpx;
+}
+.car-config {
+  background: #fff;
+  margin-top: 16rpx;
+}
+.car-config .title {
+    padding: 30rpx 32rpx;
+    color: #333;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+.car-config .config-detail {
+    padding: 0 32rpx;
+}
+.car-config .config-detail .flex-start text {
+      font-size: 24rpx;
+      color: #666;
+      padding: 18rpx 0;
+}
+.car-config .config-detail .flex-start text:first-child {
+        width: 270rpx;
+        border-right: 2rpx solid #fff;
+        padding-right: 32rpx;
+        text-align: right;
+}
+.car-config .config-detail .flex-start text:last-child {
+        padding-left: 32rpx;
+        text-align: left;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+}
+.car-config .config-detail .flex-start:nth-child(odd) text {
+      background: #F8F8FA;
+}
+.car-config .all-config {
+    text-align: center;
+    color: #B49A83;
+    padding: 20rpx 0;
+}
+.car-config .all-config image {
+      width: 30rpx;
+      height: 30rpx;
+      vertical-align: middle;
+}
+.handle-area {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  height: 98rpx;
+}
+.handle-area .left {
+    background: #fff;
+    color: #B49A83;
+    width: 286rpx;
+    font-size: 32rpx;
+    line-height: 98rpx;
+}
+.handle-area .right {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 32rpx;
+    color: #fff;
+    background: #C9AD94;
+    line-height: 98rpx;
+}
+.layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.layer-content {
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+  background: #fff;
+  text-align: center;
+  bottom: -480rpx;
+  padding: 80rpx 32rpx 0;
+  height: 468rpx;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.layer-content .icon {
+    width: 32rpx;
+    height: 32rpx;
+    position: absolute;
+    top: 40rpx;
+    right: 40rpx;
+}
+.layer-content .title {
+    color: #283540;
+    font-size: 36rpx;
+    font-weight: bold;
+}
+.layer-content .desc {
+    color: #666;
+    margin: 16rpx 0 60rpx;
+}
+.layer-content .input-tel {
+    height: 68rpx;
+}
+.layer-content .btn {
+    margin-top: 80rpx;
+    line-height: 98rpx;
+    background: #ccc;
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.layer-content .btn.active {
+      background: #C9AD94;
+}
+.layer-content.content2 {
+    bottom: -580rpx;
+    height: 566rpx;
+}
+.layer-content.content2 .flex-center {
+      padding: 48rpx 0 20rpx;
+}
+.layer-content.content2 .flex-center text {
+        color: #ccc;
+}
+.layer-content.content2 .flex-center text.active {
+          color: #333;
+}
+.layer-content.content2 .flex-center image {
+        width: 16rpx;
+        height: 32rpx;
+        margin-left: 16rpx;
+}
+.layer-content.show {
+    bottom: 0;
+}
+

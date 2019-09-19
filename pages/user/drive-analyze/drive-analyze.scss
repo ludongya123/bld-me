@@ -1,0 +1,79 @@
+.wrapper{
+	padding-top:104upx;
+}
+.nav{
+		position: fixed;
+		width:100%; 
+		top:0;
+		z-index:10;
+		.nav-item{
+			flex:1;
+			height: 84upx;
+			line-height: 84upx;
+			text-align: center;
+			background: #fff;
+			position: relative;
+			&.active:after{
+				content: "";
+				position: absolute;
+				width:60upx;
+				border-bottom:6upx solid #B49A83;
+				bottom:0;
+				left:50%;
+				margin-left:-30upx;
+			}
+			&.active text{
+				color:#B49A83;
+				font-weight: bold;
+			}
+			text{
+				display: inline-block; 
+				line-height: 84upx;
+				font-size: 28upx;
+				color:#5E6A75;
+			}
+		}
+	}
+	
+	.options{
+		background: #fff;
+		.date-choose{
+			text-align: center;
+			padding:20upx 0;
+			view{
+				@include fontStyle(#333,64upx,32upx);
+				display: inline-block;
+				padding: 0 30upx;
+				border-radius: 50upx;
+				background: #E9D4BF;
+				margin: 0 auto;
+				image{
+					width:36upx;
+					height: 36upx;
+					vertical-align: middle;
+					margin-left: 20upx;
+				}
+			}
+		}
+		.list-g{
+			padding:0 32upx;
+			.list-i{
+				padding: 24upx 0;
+				 text{
+					@include fontStyle(#666,44upx,32upx);
+					 &.tip{
+						 width:240upx;
+					 }
+					 &.val{
+						 text-align: center;
+						 flex: 1;
+					 }
+					 &.unit{
+						 text-align: right;
+						 width:200upx;
+					 }
+				 }
+			}
+		}
+		 
+	}

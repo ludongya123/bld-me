@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+map {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: -webkit-calc(100vh - 815rpx);
+  height: calc(100vh - 815rpx);
+}
+page {
+  padding-top: -webkit-calc(100vh - 815rpx);
+  padding-top: calc(100vh - 815rpx);
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.location_wrap {
+  position: absolute;
+  width: 576rpx;
+  height: 88rpx;
+  left: 50%;
+  margin-left: -288rpx;
+  top: -webkit-calc(50% - 100rpx);
+  top: calc(50% - 100rpx);
+  color: #fff;
+  z-index: 99;
+}
+.location_wrap .icon_mark_box {
+    position: absolute;
+    width: 576rpx;
+    height: 88rpx;
+    left: 0;
+    top: 0;
+}
+.location_wrap .location_wrap_text {
+    position: relative;
+    width: 576rpx;
+    height: 88rpx;
+    text-align: center;
+    line-height: 68rpx;
+    color: #fff;
+    z-index: 99;
+}
+.icon_move_location {
+  width: 96rpx;
+  height: 96rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+}
+.cover-view-box {
+  height: 815rpx;
+}
+.cover-view-box .map_des {
+    padding: 0 32rpx;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.cover-view-box .map_des .map_des_address {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      padding: 32rpx 0;
+      margin: 0 auto;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.cover-view-box .map_des .map_des_address .map_des_address_title {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 20rpx;
+}
+.cover-view-box .map_des .map_des_address .map_des_address_title .des1 {
+          font-size: 28rpx;
+          color: #666;
+}
+.cover-view-box .map_des .map_des_address .map_des_address_title .des2 {
+          font-size: 24rpx;
+          color: #999;
+}
+.cover-view-box .map_des .map_des_address .map_des_address_describe {
+        font-size: 36rpx;
+        color: #283540;
+        font-weight: bold;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_1 {
+      padding: 32rpx 0 28rpx;
+      color: #666;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_1 .icon_4s {
+        width: 32rpx;
+        height: 32rpx;
+        margin-right: 16rpx;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_1 view {
+        color: #666;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_1 view text {
+          font-size: 24rpx;
+          color: #999;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 {
+      width: 686rpx;
+      font-size: 36rpx;
+      color: #283540;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .store-left {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        overflow: hidden;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .store-left .store-name {
+          color: #283540;
+          font-size: 36rpx;
+          font-weight: bold;
+          line-height: 1.3;
+          white-space: nowrap;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .store-left .line_3_address {
+          margin-top: 16rpx;
+          padding-bottom: 32rpx;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .store-left .line_3_address .address {
+            color: #283540;
+            font-size: 24rpx;
+            max-width: 450rpx;
+            white-space: nowrap;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+               text-overflow: ellipsis;
+            margin-right: 16rpx;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .store-left .line_3_address .flex-end image {
+            width: 28rpx;
+            height: 28rpx;
+            margin-right: 10rpx;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .store-left .line_3_address .flex-end text {
+            font-size: 24rpx;
+            color: #283540;
+}
+.cover-view-box .map_des .map_des_store .shop_change_line_2 .icon_right {
+        width: 16rpx;
+        height: 32rpx;
+}
+.cover-view-box .person_info {
+    width: 100%;
+    height: 330rpx;
+    background-color: #fff;
+    margin-top: 16rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 32rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 4rpx 0px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 0px 4rpx 0px rgba(0, 0, 0, 0.07);
+}
+.cover-view-box .person_info .info_item {
+      position: relative;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 110rpx;
+      line-height: 110rpx;
+}
+.cover-view-box .person_info .info_item input {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+}
+.cover-view-box .person_info .info_item .info_item_left {
+        width: 172rpx;
+        height: 100%;
+        line-height: 110rpx;
+        font-size: 28rpx;
+        color: #333;
+}
+.cover-view-box .person_info .info_item .info_item_right {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        height: 100%;
+        line-height: 110rpx;
+        font-size: 28rpx;
+        color: #666;
+        padding-left: 28rpx;
+}
+.cover-view-box .person_info .info_item .icon_right_arrow {
+        position: absolute;
+        width: 16rpx;
+        height: 32rpx;
+        right: 0;
+}
+.cover-view-box .btn_pay {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 98rpx;
+    text-align: center;
+    line-height: 98rpx;
+    background-color: #C9AD94;
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #fff;
+    margin: 0  auto;
+    letter-spacing: 2rpx;
+}
+

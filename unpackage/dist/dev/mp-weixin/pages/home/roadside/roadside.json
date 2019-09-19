@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "道路救援",
+  "disableScroll": true,
+  "usingComponents": {
+    "y-y-pick-store": "/components/home/baoyang/yuyuePickStore"
+  }
+}

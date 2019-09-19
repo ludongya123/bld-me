@@ -1,0 +1,48 @@
+.nav{
+	width:100%;
+	white-space: nowrap;
+	background: #fff;
+	.nav-item{
+		display: inline-block;
+		padding:0 20upx;
+		line-height: 88upx;
+		font-weight: bold;
+		color:#999999;
+		&.active{
+			color:#B49A83;
+		}
+	}
+}
+.swiper{
+	height: calc(100vh - 176upx - 25px); 
+	&.height1{
+		height: calc(100vh - 88upx - 25px); 
+	}
+	.swiper-item{  
+		scroll-view{
+			height: 100%;
+			.banner-wrapper{
+				padding: 32upx;
+				.banner{
+					width:100%;
+					height: 300upx;
+				}
+				&.empty{
+					padding-bottom:0;
+				}
+			}
+		}
+	}
+	
+}
+.init-nodata{
+		color:#888;
+		line-height: 80vh;
+		text-align: center;
+	}
+	.scroll-nodata{
+		padding: 30upx ;
+		text-align: center;
+		color:#666;
+		font-size: 24upx; 
+	}

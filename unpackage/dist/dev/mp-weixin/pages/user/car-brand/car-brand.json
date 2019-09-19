@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "车辆品牌",
+  "usingComponents": {
+    "car-style": "/components/car-style/car-style"
+  }
+}

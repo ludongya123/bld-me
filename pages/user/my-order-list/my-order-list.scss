@@ -1,0 +1,136 @@
+page{
+	page-top:16upx;
+}
+.my-order{
+	padding: 0 34upx 48upx;
+	background: #fff;
+	margin:16upx 0;
+	.order-top{
+		padding: 22upx 0;
+		padding-top: 34upx;
+		.order-top-left,.order-top-right{
+			color: #999999;
+			font-size: 28upx;
+		}
+	}
+	
+	
+	.flex-start-order{
+	  display: flex;
+	  justify-content: space-start;
+	  webkit-box-align:flex-start;
+	  -webkit-align-items:flex-start;
+	  -ms-flex-align:flex-start;
+	  align-items:flex-start;
+	  .flex-content-order{
+		  flex:1;
+	  }
+	}
+	
+	.order-content{
+		padding: 24upx 0;
+		.order-img{
+			width: 192upx;
+			height: 142upx;
+		}
+		.order-describe{
+			width: 326upx;
+			padding-left: 24upx;
+			.order-title{
+				font-size: 28upx;
+				line-height: 34upx;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp:3;
+				-webkit-box-orient: vertical;
+		
+			}
+			.order-specifications{
+				color: #999999;
+				font-size: 24upx;
+				line-height: 30upx;
+				margin-top: 10upx;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp:2;
+				-webkit-box-orient: vertical;
+			}
+		}
+	}
+	.order-amounta{
+		color: #666666;
+		font-size: 28upx;
+		padding:24upx 0 20upx 0;
+		padding-bottom: 0;
+	}
+	.order-payment-amounta{
+		color: #666666;
+		font-size: 28upx;
+		padding-top: 20upx;
+		text{
+			font-size: 32upx;
+			color: #EA6572;
+		}
+	}
+	.order-info{
+		width:200upx;
+		text{
+			display: block;
+			text-align: right;
+		}
+		.final-price{
+			color: #333333;
+			font-size: 28upx;
+			margin-bottom: 10upx;
+		}
+		.total-price{
+			color: #999999;
+			font-size: 28upx;
+			text-decoration: line-through;
+		}
+		.commodity-number{
+			color: #333333;
+			font-size: 26upx;
+			margin-top: 32upx;
+		}
+	}
+	.flex-column-order{
+	  display: flex;
+	  flex-direction:column;
+	  align-items: center;
+	  text-align: right;
+	}
+}
+
+ .reply{
+	 padding:32upx;
+	 background: #F3F5F8;
+	 margin-top:32upx;
+	 .reply-title{
+		 color:#666;
+		 font-weight: 600;
+		 margin-bottom:18upx;
+	 }
+	 .reply-content{ 
+		 @include fontStyle(#999,40upx,26upx);
+		 word-break:break-all
+	 }
+ }
+ 
+ .nodata{
+ 	padding: 30upx ;
+ 	text-align: center;
+ 	color:#666;
+ 	font-size: 24upx;
+ }
+ .no-init-data{
+	 padding-top: 248upx;
+ 	text-align: center;
+ 	color:#B7B7B7;
+	image{
+		width: 100%;
+		height: 232upx;
+	}
+ }

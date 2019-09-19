@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goods-temp": "/components/goods-temp/goods-temp"
+  }
+}

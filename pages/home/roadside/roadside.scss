@@ -1,0 +1,201 @@
+map{
+	position: fixed; 
+	top:0;
+	z-index:10;
+	height: calc(100vh - 815upx);
+}
+page{
+	padding-top :calc(100vh - 815upx) ;
+	height: 100vh;  
+	box-sizing: border-box;
+}
+.location_wrap{
+	position: absolute;
+	width: 576upx; 
+	height: 88upx;
+	left: 50%;
+	margin-left: -288upx;
+	top: calc(50% - 100upx);
+	color: #fff;
+	z-index: 99;
+	.icon_mark_box{
+		position: absolute;
+		width: 576upx;
+		height: 88upx;
+		left: 0;
+		top: 0;
+		
+	}
+	.location_wrap_text{
+		position: relative;
+		width: 576upx;
+		height: 88upx;
+		text-align: center;
+		line-height: 68upx;  
+		color: #fff;
+		z-index: 99;
+	}
+}
+.icon_move_location{
+	width: 96upx;
+	height: 96upx; 
+	position: absolute;
+	right:30upx;
+	bottom: 30upx;
+}
+
+.cover-view-box{ 
+	height: 815upx; 
+	.map_des{ 
+		padding: 0 32upx; 
+		background-color: #fff;
+		box-sizing: border-box;
+		.map_des_address{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			padding: 32upx 0; 
+			margin: 0 auto;
+			box-sizing: border-box;
+			.map_des_address_title{
+				display: flex;
+				margin-bottom:20upx;
+				.des1{
+					font-size: 28upx;
+					color: #666;
+				}
+				.des2{
+					font-size: 24upx;
+					color: #999;
+				}
+			}
+			.map_des_address_describe{
+				font-size: 36upx;
+				color: #283540;
+				font-weight: bold;
+			}
+		}
+		.map_des_store{
+			.shop_change_line_1{
+				padding:32upx 0 28upx; 
+				color:#666;
+				.icon_4s{
+					width: 32upx;
+					height: 32upx;
+					margin-right: 16upx;
+				}
+				view{
+					color:#666;
+					text{
+						font-size: 24upx;
+						color:#999;
+					}
+				}
+			}
+			.shop_change_line_2{
+				width: 686upx;
+				font-size: 36upx;
+				color: #283540; 
+				.store-left{
+					flex:1;
+					overflow: hidden;
+					.store-name{
+						color: $base-color;
+						font-size: 36upx;
+						font-weight: bold;
+						line-height: 1.3;
+						@include singleEls;
+					}
+					.line_3_address{
+						margin-top:16upx;
+						padding-bottom: 32upx;
+						.address{
+							color:$base-color;
+							font-size: 24upx;
+							max-width:450upx;
+							@include singleEls;
+							margin-right: 16upx;
+						}
+						.flex-end{
+							image{
+								width:28upx;
+								height: 28upx;
+								margin-right: 10upx;
+							}
+							text{
+								font-size: 24upx;
+								color:$base-color;
+							}
+						}
+					}
+				}
+				.icon_right{
+					width:16upx;
+					height: 32upx;
+				}
+			}
+
+		}
+			
+	}
+	// 救援人信息样式
+	.person_info{
+		// width: 686upx;
+		width: 100%;
+		height: 330upx;
+		background-color: #fff;
+		margin-top: 16upx;
+		display: flex;
+		flex-direction: column;
+		padding: 0 32upx;
+		box-sizing: border-box;
+		box-shadow:0px 0px 4upx 0px rgba(0,0,0,0.07);
+		.info_item{
+			position: relative;
+			flex: 1;
+			display: flex;
+			align-items: center;
+			height: 110upx;
+			line-height: 110upx;
+			input{
+				flex:1;
+			}
+			.info_item_left{
+				width: 172upx;
+				height: 100%;
+				line-height: 110upx;
+				font-size: 28upx;
+				color: #333;
+			}
+			.info_item_right{
+				flex:1;
+				height: 100%;
+				line-height: 110upx;
+				font-size: 28upx;
+				color: #666;
+				padding-left: 28upx;
+			}
+			.icon_right_arrow{
+				position: absolute;
+				width: 16upx;
+				height: 32upx;
+				right: 0;
+			}
+		}
+	}
+	.btn_pay{ 
+		position: fixed;
+		width:100%;
+		bottom:0;
+		height: 98upx;
+		text-align: center;
+		line-height: 98upx;
+		background-color: #C9AD94;
+		font-size: 32upx;
+		font-weight: bold;
+		color: #fff;
+		margin: 0  auto; 
+		letter-spacing: 2upx;
+	}
+}
+

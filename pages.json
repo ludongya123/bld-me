@@ -1,0 +1,348 @@
+{
+	"pages": [ //*******
+		
+	    {
+            "path" : "pages/home/home",
+            "style" : { 
+				"navigationBarTitleText":"BLD-me",
+				"enablePullDownRefresh":true
+				
+			}
+        } ,
+		{
+		     "path" : "pages/service/service",
+		     "style" : { 
+		 		"navigationBarTitleText":"客服"
+		 		
+		 	}
+		}, 
+        {
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText":"我的"
+			}
+        },
+		{
+		     "path" : "pages/user/user-equity/user-equity",
+		     "style" : {
+				 "navigationBarTitleText":"会员权益",
+				 "backgroundColor":"#ffffff",
+				 "navigationStyle":"custom"
+			 }
+		},
+		{
+		     "path" : "pages/user/user-switching-accounts/user-switching-accounts",
+		     "style" : {
+				 "navigationBarTitleText":"切换账号",
+				 "backgroundColor":"#ffffff"
+			 }
+		},
+		{
+			"path" : "pages/user/my-order-list/my-order-list",
+			"style" : {
+				"navigationBarTitleText":"我的订单",
+				 "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/user/my-order-detail/my-order-detail",
+			"style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+		},
+		{
+			"path" : "pages/user/logistics-Information/logistics-Information",
+			"style" : {
+				"navigationBarTitleText":"物流详情"
+			}
+		},
+		{
+			"path" : "pages/user/application-refunda/application-refunda",
+			"style" : {
+				"navigationBarTitleText":"申请退款"
+			}
+		},
+		{
+			"path" : "pages/user/my-car/my-car",
+			"style" : {
+				"navigationBarTitleText":"我的车辆"
+			}
+		},
+		{
+			"path" : "pages/user/add-car/add-car",
+			"style" : {
+				"navigationBarTitleText":"添加车辆"
+			}
+		},
+		{
+			"path" : "pages/user/edit-v-car/edit-v-car",
+			"style" : {
+				"navigationBarTitleText":"编辑车辆"
+			}
+		} ,
+		{
+			"path" : "pages/user/car-brand/car-brand",
+			"style" : {
+				"navigationBarTitleText":"车辆品牌"
+			}
+		},
+		{
+			"path" : "pages/user/car-series-price/car-series-price",
+			"style" : {
+				"navigationBarTitleText":"选择车型"
+			}
+		} ,
+		{
+			"path" : "pages/user/appointment-list/appointment-list",
+			"style" : {
+				"navigationBarTitleText":"我的预约"
+			}
+		} ,
+		{
+			"path" : "pages/user/appointment-state/appointment-state",
+			"style" : {
+				"navigationBarTitleText":"保养预约"
+			}
+		} ,
+		{
+			"path" : "pages/user/sell-detail/sell-detail",
+			"style" : {
+				"navigationBarTitleText":"售后服务记录"
+			}
+		} ,
+		{
+			"path" : "pages/user/submit-suggest/submit-suggest",
+			"style" : {
+				"navigationBarTitleText":"意见反馈",
+				"navigationStyle":"custom" 
+			}
+		} ,
+		{
+			"path" : "pages/user/my-suggest/my-suggest",
+			"style" : {
+				"navigationBarTitleText":"我的意见反馈"
+			}
+		} ,
+		{
+			"path" : "pages/user/car-butler/car-butler",
+			"style" : {
+				"navigationBarTitleText":"爱车管家"
+			}
+		} ,
+		{
+			"path" : "pages/user/set-notice/set-notice",
+			"style" : {
+				"navigationBarTitleText":"异常提醒设置"
+			}
+		} ,
+		{
+			"path" : "pages/user/notice-list/notice-list",
+			"style" : {
+				"navigationBarTitleText":"异常提醒"
+			}
+		} ,
+		{
+			"path" : "pages/user/car-livedata/car-livedata",
+			"style" : {
+				"navigationBarTitleText":"实时数据"
+			}
+		} ,
+		{
+			"path" : "pages/user/oil-analyze/oil-analyze",
+			"style" : {
+				"navigationBarTitleText":"油耗分析"
+			}
+		} ,
+		{
+			"path" : "pages/user/drive-analyze/drive-analyze",
+			"style" : {
+				"navigationBarTitleText":"驾驶分析"
+			}
+		} ,
+		{
+            "path" : "pages/home/baoyang/baoyang",
+            "style" : {
+				"navigationBarTitleText":"保养预约",
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/home/roadside/roadside",
+            "style" : {
+				"navigationBarTitleText":"道路救援",
+				"disableScroll":true
+			}
+        }
+        ,{
+            "path" : "pages/home/storeList/storeList",
+            "style" : {
+				"navigationBarTitleText":"门店列表"
+			}
+        }
+
+        ,{
+            "path" : "pages/user/success-state/success-state",
+            "style" : {}
+        }
+
+        ,{
+            "path" : "pages/home/dbc/dbc",
+            "style" : {
+				"navigationBarTitleText":"代步车",
+				"navigationStyle":"custom"
+			}
+        }
+
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText":"手机验证"
+			}
+        }
+        ,{
+            "path" : "pages/user/all-car/all-car",
+            "style" : {
+				"navigationBarTitleText":"全部车辆" 
+			}
+        }
+        ,{
+            "path" : "pages/user/car-location/car-location",
+            "style" : {
+				"navigationBarTitleText":"车辆定位"
+			}
+        }
+        ,{
+            "path" : "pages/home/web-view/web-view",
+            "style" : {
+				 
+			}
+        }
+        ,{
+            "path" : "pages/home/entry/entry",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/obd/obd",
+            "style" : {
+				"navigationBarTitleText":"爱车管家"
+			}
+        }
+        ,{
+            "path" : "pages/mall/goods-list/goods-list",
+            "style" : {
+				"navigationBarTitleText":"商品列表",
+				"navigationStyle":"custom"
+				
+			}
+        }
+        ,{
+            "path" : "pages/mall/goods-detail/goods-detail",
+            "style" : {
+				"navigationBarTitleText":"商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/mall/newcar-list/newcar-list",
+            "style" : {
+				"navigationBarTitleText":"新车列表"
+			}
+        } 
+        ,{
+            "path" : "pages/mall/newcar-detail/newcar-detail",
+            "style" : {
+				"navigationBarTitleText":"新车详情"
+			}
+        }
+        ,{
+            "path" : "pages/mall/submit-order/submit-order",
+            "style" : {
+				"navigationBarTitleText":"提交订单"
+			}
+        }
+        ,{
+            "path" : "pages/mall/user-address/user-address",
+            "style" : {
+				"navigationBarTitleText":"收货地址"
+			}
+        }
+        ,{
+            "path" : "pages/mall/edit-address/edit-address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mall/car-config/car-config",
+            "style" : {
+				"navigationBarTitleText":"车辆配置详情"
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#596873",
+		"selectedColor": "#BE8B39",
+		"borderStyle": "black",
+		"backgroundColor": "#283540",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/service/service",
+				"iconPath": "static/service.png",
+				"selectedIconPath": "static/service1.png",
+				"text": "客服"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/me.png",
+				"selectedIconPath": "static/me1.png",
+				"text": "我的"
+			} 
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "BLD-me",
+		"navigationBarBackgroundColor": "#283540",
+		"backgroundColor": "#F8F8F8" 
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0 ,//当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "选车系", //模式名称
+				"path": "pages/user/car-series-price/car-series-price", //启动页面，必选
+				"query": "id=1" //启动参数，在页面的onLoad函数里面得到
+			},
+			{
+				"name": "baoyang", //模式名称
+				"path": "pages/home/baoyang/baoyang", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},
+			{
+				"name": "道路救援", //模式名称
+				"path": "pages/home/roadside/roadside", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},
+			// pages/home/storeList/storeList
+			{
+				"name": "门店列表", //模式名称
+				"path": "pages/home/storeList/storeList", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},
+			// pages/home/dbc/dbc
+			{
+				"name": "代步车", //模式名称
+				"path": "pages/home/dbc/dbc", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			},
+			// pages/login/login
+			{
+				"name": "登录页", //模式名称
+				"path": "pages/login/login", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

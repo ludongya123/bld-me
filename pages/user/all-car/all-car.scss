@@ -1,0 +1,62 @@
+.wrapper{
+	padding: 32upx ;
+}
+.swiper-item{ 
+		background: #fff; 
+		border-radius: 12upx;
+		margin-bottom:24upx;
+		.car-info{
+			padding: 32upx 32upx 32upx 24upx; 
+			.img{
+				width: 88upx;
+				height: 88upx;
+				margin-right: 20upx;
+				display: block;
+			}
+			.car-detail{
+				flex:1;
+				overflow: hidden;
+				.car-name{
+					text{
+						@include fontStyle($base-color,36upx,36upx);
+						font-weight: bold;
+					}
+					image{
+						width:64upx;
+						height: 52upx;
+						margin-left:10upx;
+					}
+				}
+				.car-subname,.car-mileage{
+					@include fontStyle(#999,26upx,24upx);
+					@include singleEls;
+					margin-top:16upx;
+				}
+			}
+		}
+		.handel-area{
+			padding:28upx 32upx; 
+			color:#4a4a4a;
+			.edit-del{
+				.flex-end{
+					margin-left:40upx;
+				}
+			}
+			.icon{
+				width:36upx;
+				height: 36upx;
+				margin-right:16upx; 
+			}
+			text{
+				font-size: 24upx;
+				color:#999;
+			}
+			
+		}
+	}
+	.nodata{
+		padding: 30upx ;
+		text-align: center;
+		color:#666;
+		font-size: 24upx; 
+	}

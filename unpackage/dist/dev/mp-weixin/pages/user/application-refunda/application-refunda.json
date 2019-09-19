@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "usingComponents": {
+    "g-status-view": "/components/user/order/GoodsStatusView"
+  }
+}

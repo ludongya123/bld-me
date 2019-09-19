@@ -1,0 +1,85 @@
+page{
+	background: #fff;
+}
+.container{
+	padding:0 32upx 120upx;
+	.item{
+		padding:40upx 0;
+		.left{
+			image{
+				width:40upx;
+				height: 40upx;
+			}
+			view{
+				color:#D3BAA5;
+				font-size: 20upx;
+				margin-top:10upx;
+			}
+			.circle{
+				display: block;
+				width:40upx;
+				height: 40upx;
+				border-radius: 50%;
+				border:1upx solid #ccc;
+			}
+		}
+		.center{
+			margin: 0 14upx 0 36upx;
+			flex:1;
+			.user-name{
+				color:#333;
+				font-size: 32upx;
+				font-weight: bold;
+				text{
+					color:#999;
+					margin-left: 16upx;
+					font-size: 26upx;
+				}
+			}
+			.detail{
+				line-height: 36upx;
+				color:#666;
+				margin-top:16upx;
+				text{
+					font-size: 20upx;
+					padding:4upx 8upx;
+					background: #D3BAA5;
+					color:#fff;
+					margin-right: 16upx;
+				}
+			}
+		}
+		.right{
+			padding-left: 32upx;
+			position: relative;
+			image{
+				width:46upx;
+				height: 46upx;
+			}
+			&:before{ 
+				content:'';
+				display: block;
+				width:1upx;
+				height: 84upx;
+				position: absolute;
+				border-left:1upx solid  #f0f0f0;
+				left:0;
+				top:-14upx;
+			}
+		}
+	}
+}
+
+.btn{
+	position: fixed;
+	width:100%;
+	line-height: 98upx;
+	bottom: 0;
+	background: #C9AD94;
+	font-size: 32upx;
+	font-weight: bold;
+	text-align: center;
+	left:0;
+	color:#fff;
+	letter-spacing:2upx
+}

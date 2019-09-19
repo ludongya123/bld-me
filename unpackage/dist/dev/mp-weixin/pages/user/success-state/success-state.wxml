@@ -1,0 +1,1 @@
+<view><view class="state"><image src="/static/user/s-b.png" mode></image><view class="s-title">提交成功</view><view class="s-tip">工作人员会尽快与您联系</view><button type="default" size="mini" data-event-opts="{{[['tap',[['backPage',['$event']]]]]}}" bindtap="__e">返回首页</button></view></view>

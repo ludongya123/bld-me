@@ -1,0 +1,247 @@
+page{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.baoyang {
+		.banner-swiper {
+			width: 100%;
+			height: 240upx;
+			image{
+				width:100%;
+				height: 240upx;
+				display: block;
+			}
+		}
+
+		.car_message_box {
+			width: 100%;
+			// height: 230upx;
+			background: #fff;
+			padding: 0 32upx;
+			// margin-bottom: 16upx;
+			.message_top {
+				width: 686upx;  
+				padding: 32upx 0;
+
+				.top_img {
+					float: left;
+					width: 72upx;
+					height: 72upx;
+
+				}
+
+				.top_car_msg {  
+					height: 100%; 
+					padding-left: 20upx;
+					flex:1;
+					
+					.car_msg_name {
+						font-size: 36upx;
+						color: $base-color;
+						font-weight: bold;
+					}
+
+					.car_msg_des {
+						font-size: 26upx;
+						color: #999; 
+						line-height: 1.3;
+						margin-top:16upx;
+					}
+				}
+
+				.top_change_btn {   
+					margin-left: 20upx;
+					text{
+						font-size: 26upx;
+						color: #999;
+							margin-right: 10upx;
+					}
+					.icon{
+						width:16upx;
+						height: 32upx;
+					}
+				}
+			}
+
+			.message_bottom {
+				display: flex;
+				width: 686upx;
+				height: 92upx;
+				
+				.message_bottom_left{
+					flex: 1;
+					line-height: 92upx;
+				}
+				.message_bottom_right{
+					flex: 1;
+					display: flex;
+					line-height: 92upx;
+					input{
+						height: 46upx;
+						margin-top: 25upx;
+						text-align: right;
+						padding-right: 10upx;
+					}
+				}
+			}
+		}
+		.add-car{
+			background: #fff;
+			padding: 28upx 32upx;
+			.icon1{
+				width:72upx;
+				height: 72upx;
+			}
+			.middle{
+				flex:1;
+				margin-left: 20upx;
+				.title{
+					color:#283540;
+					font-size: 36upx;
+					font-weight: bold;
+					margin-bottom: 10upx;
+				}
+				.desc{
+					color:#999;
+					font-size: 26upx;
+					
+				}
+			}
+			.icon2{
+				width:16upx;
+				height: 32upx;
+			}
+		}
+		.shop_change_line{
+			width: 100%;
+			height: 300upx;
+			padding: 0 32upx;
+			.shop_line_top{ 
+				// border-bottom: 1px solid $base-color;
+				padding-bottom: 36upx;
+				.shop_change_line_1{
+					padding: 40upx 0 28upx;
+					text{
+						color:#666;
+						margin-left: 16upx;
+					} 
+					.icon_4s{ 
+						width: 32upx;
+						height: 32upx; 
+					}
+				}
+				.shop_change_line_2{ 
+					
+					text{
+						flex:1;
+						font-size: 36upx;
+						color: $base-color;
+						@include singleEls;
+						font-weight: bold; 
+					}
+					.icon{
+						width:16upx;
+						height: 32upx;
+						margin-left: 20upx;
+					}
+				}
+				.shop_change_line_3{
+
+					margin-top: 16upx;
+					.line_3_address{
+						max-width: 450upx; 
+						@include singleEls;
+					}
+					.flex-end{
+						margin-left:20upx;
+						.icon{
+							width:28upx;
+							height: 28upx;
+							margin-right:10upx;
+						}
+						text{
+							font-size: 24upx;
+							color:$base-color;
+						}
+					}
+				}
+			}
+			.shop_line_bottom{  
+				padding: 32upx 0;
+				.icon_time{ 
+					width: 32upx;
+					height: 32upx; 
+				}
+				.time_title{ 
+					font-size: 28upx;
+					color: #666666;
+					margin:0 16upx;
+				}
+				.btn_time{ 
+					flex:1;
+					font-size: 26upx;
+					color: #999;
+					text{
+						flex:1;
+						text-align: right;
+						margin-right: 16upx;
+					}
+					.icon{
+						width:16upx;
+						height: 32upx;
+					}
+				}
+			}
+		}
+		.bottom_bor_top{
+			position: absolute;
+			bottom: 99upx;
+			left: 0;
+		}
+		.bottom_btn_groups{
+			position: absolute;
+			width: 100%;
+			height: 98upx; 
+			left: 0;
+			bottom: 0;
+			.btn_call{
+				width: 286upx;
+				height: 100%;
+				text-align: center;
+				font-size: 22upx;
+				color: #999;
+				.icon_call{
+					width: 48upx;
+					height: 48upx;
+					margin: 6upx 118upx 10upx 118upx;
+				}
+			}
+			.btn_commit_yy{
+				flex: 1; 
+				line-height: 98upx;
+				text-align: center;
+				background-color: #C9AD94;
+				color: #fff;
+				font-size: 32upx;
+			}
+			.no_commit{
+				background-color: #ccc;
+			}
+		}
+		
+		.modal_box {
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background: rgba(0, 0, 0, 1);
+			opacity: 0.7;
+			top: 0;
+			z-index: 99;
+		}
+		.check_icon{
+			width: 60upx;
+			height: 60upx;
+		}
+	}

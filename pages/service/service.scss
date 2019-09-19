@@ -1,0 +1,31 @@
+page {
+	background-color: #ffffff;
+}
+.my-service{
+	.line{
+		height: 2upx;
+		width: 686upx;
+		margin: 0 auto;
+		background: #F8F8F8;
+		margin-bottom: 4upx;
+		margin-top: 4upx;
+	}
+	.service-box{
+		padding-bottom: 10upx;
+		padding-top: 24upx;
+		position: relative;
+		.service-btn{
+			opacity: 0;
+			position:absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 344upx;
+		}
+	}
+	.service-top,.service-ft{
+		width: 100%;
+		height: 344upx;
+	}
+	
+}

@@ -1,0 +1,46 @@
+page{
+	padding-top:16upx;
+}
+.list-item{
+	margin-bottom:16upx;
+	padding:0 32upx 32upx;
+	background: #fff;
+	.title{
+		padding: 32upx 0 24upx;
+		.t-l{
+			font-weight: bold;
+			color:#333;
+			font-size: 32upx;
+		}
+		.t-r{
+			color:#999;
+			font-size: 28upx;
+		}
+	}
+	.content{
+		color:#666;
+		view{
+			margin-top:16upx;
+			line-height: 36upx;
+		}
+	}
+}
+
+	.nodata{
+		padding: 30upx ;
+		text-align: center;
+		color:#666;
+		font-size: 24upx; 
+	}
+	.no-init-data{
+		text-align: center;
+		padding-top:200upx;
+		color:#B7B7B7;  
+		image{
+			width:100%;
+			height: 232upx;
+		}
+		view{
+			font-size: 32upx; 
+		}
+	}

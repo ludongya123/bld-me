@@ -1,0 +1,39 @@
+page{
+	background: #fff;
+}
+.year-type,.series-detail{
+	height: 100vh;
+	overflow-y: scroll;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+.year-type{
+	width:200upx;
+	.y-list{
+		padding:40upx 0 ; 
+		text-align: center;
+		position: relative; 
+		width: 200upx;
+		&.active{
+			background: #f0f0f0;
+		}
+		text{
+			position: absolute;
+			width:0;
+			height: 0;
+			border:28upx solid transparent;
+			border-right-color:#fff; 
+			right:0;
+			top:25upx;
+		}
+	}
+}
+.series-detail{
+	flex:1;
+	text-align: left;
+	border-left: 1upx solid #ddd;
+	.s-list{
+		width:100%;
+		padding:30upx 32upx;
+	}
+}
